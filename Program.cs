@@ -16,6 +16,14 @@ string[] ToStringWithMax3Chars(string[] str)
             count++;
         }
     }
+    string[] result = new string[count];
+    for (int i = 0; i < result.Length; i++)
+    {
+        result[i] = temp[i];
+    }
+    System.Console.WriteLine($"The number of items in the final array: {count}");
+    return result;
 }
+
 
 
