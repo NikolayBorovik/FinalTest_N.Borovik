@@ -1,2 +1,8 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿// 
+Console.Clear();
+
+string[] text = { "Whether", "the", "weather", "is", "fine", ",", "Whether the weather", "is", "not" };
+
+
+
+
