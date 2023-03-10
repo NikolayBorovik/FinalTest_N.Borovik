@@ -25,5 +25,9 @@ string[] ToStringWithMax3Chars(string[] str)
     return result;
 }
 
+string [] result = ToStringWithMax3Chars (text);
+
+System.Console.Write("The resulting string is: ");
+System.Console.WriteLine(String.Join("_", result));
 
 
